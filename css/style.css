@@ -1,0 +1,233 @@
+/*Limpando dados gerais*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h4{
+    color: #ffff;
+    background: #294C71;
+    padding: 2px 4px;
+    margin: 4px;
+}
+
+h5{
+    color: #ffff;
+    background: #a20733;
+    padding: 2px 4px;
+    display: inline;
+
+}
+h6{
+    color: #294C71;
+    font-size: medium;
+}
+
+/* layout topo */
+#conteiner_topo{
+    padding-bottom: 60px;
+    padding-top:20px;
+    background: #294C71 url(../imagens/fundo.png) repeat-x ;
+}
+
+#imagem_menu{
+    width: 920px;
+    margin: 0 auto;
+    height: 150px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+
+#menu_horizontal{
+    margin-top: 60px;
+}
+
+/*barra de navegação horizontal*/
+#menu_horizontal ul{
+
+    background: #a20733;
+    float: left;
+    list-style: none;
+    color: aliceblue;
+
+}
+#menu_horizontal ul li{
+    float: left;
+    padding: 6px 30px;
+    background: url(../imagens/divisor.png) repeat-y top right ;
+}
+
+
+#menu_horizontal a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    text-decoration: none;
+
+
+}
+
+#menu_horizontal a:hover {
+    color: #540018;
+}
+
+
+#menu_horizontal #diviso{
+    background: none;
+}
+
+/* conteine conteudo */
+#conteudo_home{
+    width: 65%;
+    margin: 10px auto;
+    min-width: 920px;
+
+}
+
+#noticia{
+    width: 38%;
+    float: right;
+    margin: 0 0 20px 10px;
+}
+
+#destaque{
+    width: 38%;
+    float: right;
+    margin: 0 0 20px 0px;
+
+}
+
+#brasil #destaque{
+    width: 76%;
+    float: right;
+    margin: 0 0 20px 0px;
+
+}
+
+#Fotos #destaque {
+    width: 100%;
+    margin: 0 0 20px 0px;
+}   
+
+#lateral_menu{
+    width: 20%;
+    float: left;
+    margin: 0 10px 20px 0;
+}
+
+.caixa{
+
+    background: url(../imagens/fundo-caixa.png);
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    padding-top: 2px;
+}
+
+.conteudo{
+    padding: 2px 4px;
+    background: #ffff;
+    margin: 4px;
+
+}
+
+/* caixa entrevista */
+
+
+#lateral_menu .conteudo li{
+    list-style: none;
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+#lateral_menu .conteudo a
+{
+    padding: 6px 2px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+#lateral_menu .conteudo a:hover{
+    background: url(../imagens/marcador.png) no-repeat left ;
+    text-indent: 20px;
+    color: #A1A1A1;
+}
+
+/*conteiner news */
+
+#News_email{
+    border: 1px solid #A1A1A1;
+    width: 130px;
+    margin: 5px 0 2px;
+    height: 30px;
+    padding: 0 2px;
+}
+
+#submit{
+    text-align: center;
+    background: #a20733;
+    color: #ffff;
+    height: 30px;
+    width: 75px;
+    border: solid 1px #a20733;
+}
+
+#lateral_menu #news{
+    margin-top: 5px;
+}
+
+/*fomatação imagem */
+
+img.destaque{
+    margin: 4px 2px;
+    border: #dadada solid 3px;
+}
+
+/* conteiner mundo e noticias recentes */
+.tese{
+    list-style: none;
+}
+.tese li{
+    border-bottom: #A1A1A1 solid 1px;
+    padding: 12px 2px;
+    text-decoration: none;
+
+}
+
+.tese li a{
+    text-decoration: none;
+    font-size: small;
+}
+
+#brasil .tese li a,
+#Fotos .tese li a{
+    border-bottom: #A1A1A1 solid 1px;
+    padding: 1px;
+    text-decoration: none;
+}
+
+
+.tese li img{
+    float: left;
+    padding-right:  6px;
+}
+
+.tese li:hover{
+    background: #d0d0d0;
+}
+
+/* conteine rodape */
+
+#rodape{
+    background: #294C71 ;
+    color: #ffff;
+    line-height: 60px;
+}
+
+#rodape strong{
+    margin-left: 15%;
+}    
